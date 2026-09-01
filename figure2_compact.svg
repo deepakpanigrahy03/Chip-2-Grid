@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 210" width="1500" height="210" font-family="Arial, Helvetica, sans-serif">
+
+  <desc>Compact Figure 2 for the TPT proposal narrative body: One Instruction to One
+  Megawatt, chip to grid, five stations, condensed from the full methodology figure.</desc>
+
+  <defs>
+    <marker id="arwc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7A7168"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1500" height="210" fill="#FFFFFF"/>
+
+  <!-- panel geometry: 5 panels, width 270, gap 22, start x=10 -->
+  <!-- STATION 1 -->
+  <g>
+    <rect x="10" y="6" width="270" height="4" fill="#500000"/>
+    <rect x="10" y="10" width="270" height="178" fill="#FBF9F8" stroke="#DDD5D0"/>
+    <text x="22" y="40" font-family="Georgia, serif" font-size="21" fill="#500000">J per goal</text>
+    <text x="22" y="58" font-size="9.5" fill="#3D3733">One goal</text>
+    <text x="22" y="80" font-size="12.5" fill="#3D3733"><tspan font-weight="bold">173.5 J</tspan> &#8594; <tspan font-weight="bold">752.9 J</tspan></text>
+    <text x="22" y="97" font-size="9.5" fill="#6B6259">4.34x avg, 26.48x peak (reasoning)</text>
+    <text x="22" y="113" font-size="9" fill="#6B6259">3,300+ runs, Intel x86 &amp; GB10</text>
+    <text x="22" y="178" font-size="9" fill="#500000" font-style="italic">A-LEMS -- MEASURED</text>
+  </g>
+  <path d="M 284 96 L 304 96" stroke="#7A7168" stroke-width="1.6" fill="none" marker-end="url(#arwc)"/>
+
+  <!-- STATION 2 -->
+  <g>
+    <rect x="308" y="6" width="270" height="4" fill="#500000"/>
+    <rect x="308" y="10" width="270" height="178" fill="#FBF9F8" stroke="#DDD5D0"/>
+    <text x="320" y="40" font-family="Georgia, serif" font-size="21" fill="#500000">W</text>
+    <text x="320" y="58" font-size="9.5" fill="#3D3733">One node, time resolved</text>
+    <text x="320" y="80" font-size="12.5" fill="#3D3733"><tspan font-weight="bold">4.47 W</tspan> &#8594; <tspan font-weight="bold">13.8 W</tspan></text>
+    <text x="320" y="97" font-size="9.5" fill="#6B6259">retry spike, &#8804;100 ms rise</text>
+    <text x="320" y="113" font-size="9" fill="#6B6259">runs 769/223, domain-7 trace</text>
+    <text x="320" y="178" font-size="9" fill="#500000" font-style="italic">A-LEMS -- MEASURED</text>
+  </g>
+  <path d="M 582 96 L 602 96" stroke="#7A7168" stroke-width="1.6" fill="none" marker-end="url(#arwc)"/>
+
+  <!-- STATION 3 -->
+  <g>
+    <rect x="606" y="6" width="270" height="4" fill="#500000"/>
+    <rect x="606" y="10" width="270" height="178" fill="#FBF9F8" stroke="#DDD5D0"/>
+    <text x="618" y="40" font-family="Georgia, serif" font-size="21" fill="#500000">W</text>
+    <text x="618" y="58" font-size="9.5" fill="#3D3733">One rack, 32-task proxy</text>
+    <text x="618" y="80" font-size="12.5" fill="#3D3733"><tspan font-weight="bold">40.7 W</tspan> &#8594; <tspan font-weight="bold">186.8 W</tspan></text>
+    <text x="618" y="97" font-size="9.5" fill="#6B6259">~4.59x, five-seed avg.</text>
+    <text x="618" y="113" font-size="9" fill="#6B6259">pre-rack sim., real node traces</text>
+    <text x="618" y="178" font-size="9" fill="#500000" font-style="italic">A-LEMS -- SIMULATED</text>
+  </g>
+  <path d="M 880 96 L 900 96" stroke="#7A7168" stroke-width="1.6" fill="none" marker-end="url(#arwc)"/>
+
+  <!-- STATION 4 -->
+  <g>
+    <rect x="904" y="6" width="270" height="4" fill="#1F4E5F"/>
+    <rect x="904" y="10" width="270" height="178" fill="#FBF9F8" stroke="#DDD5D0"/>
+    <text x="916" y="34" font-family="Georgia, serif" font-size="16" fill="#1F4E5F">MW per second</text>
+    <text x="916" y="58" font-size="9.5" fill="#3D3733">One facility</text>
+    <text x="916" y="80" font-size="12" fill="#3D3733"><tspan font-weight="bold">100 kW-1 MW</tspan>/rack</text>
+    <text x="916" y="97" font-size="9.5" fill="#6B6259">ERCOT PGRR144: 10 MW/5s ceiling</text>
+    <text x="916" y="113" font-size="9" fill="#6B6259">vs. ceiling: EMT extension, Mo. 4-5</text>
+    <text x="916" y="178" font-size="9" fill="#1F4E5F" font-style="italic">vs. ERCOT PGRR144 (public)</text>
+  </g>
+  <path d="M 1178 96 L 1198 96" stroke="#7A7168" stroke-width="1.6" fill="none" marker-end="url(#arwc)"/>
+
+  <!-- STATION 5 -->
+  <g>
+    <rect x="1202" y="6" width="288" height="4" fill="#1F4E5F"/>
+    <rect x="1202" y="10" width="288" height="178" fill="#FBF9F8" stroke="#DDD5D0"/>
+    <text x="1214" y="40" font-family="Georgia, serif" font-size="21" fill="#1F4E5F">Hz</text>
+    <text x="1214" y="58" font-size="9.5" fill="#3D3733">ERCOT 138 kV interface</text>
+    <text x="1214" y="80" font-size="12.5" fill="#3D3733">frequency &amp; voltage</text>
+    <text x="1214" y="97" font-size="9.5" fill="#6B6259">ERCOT record: freq. to 60.235 Hz (2022)</text>
+    <text x="1214" y="113" font-size="9" fill="#6B6259">1 Hz precedent, 2023; NERC L3 Alert</text>
+    <text x="1214" y="178" font-size="9" fill="#1F4E5F" font-style="italic">PSCAD run, Month 4-5</text>
+  </g>
+
+  <!-- legend row -->
+  <rect x="10" y="197" width="10" height="6" fill="#500000"/>
+  <text x="24" y="204" font-size="8.5" fill="#6B6259">CSE, measured/simulated</text>
+  <rect x="200" y="197" width="10" height="6" fill="#1F4E5F"/>
+  <text x="214" y="204" font-size="8.5" fill="#6B6259">ECE, cited or scheduled</text>
+  
+</svg>
